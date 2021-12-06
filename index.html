@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel = 'stylesheet' href ="style.css">
+    <script src ='script.js' defer></script>
+</head>
+<body>
+    <h1>Library</h1>
+    <div class="librarydisplay">
+    </div>
+    <button id ='addBook'>Add Book</button>
+    <form id= 'newbook'><h1>Add Book</h1>
+        <ul>
+            <label for="title">Title: </label>
+            <input type="text" id='title' name='title'>
+        </ul>
+        <ul>
+            <label for='author'>Author: </label>
+            <input type="text" id='author' name='author'>
+        </ul>
+        <ul>
+            <label for="pages">Page Count: </label>
+            <input type="text" id='pages' name='pages'>
+        </ul>
+        <ul>
+            <label for='read'>Read?</label>
+            <input type="checkbox" id='read' name='read'>
+        </ul>
+        <input type='submit' id = 'submit'>
+        <button id ='closeForm'>Close</button>
+        <p id ='submitSuccess'>Enter details and submit</p>
+    </form>
+</body>
+</html>
